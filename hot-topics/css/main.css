@@ -1,0 +1,123 @@
+body {
+    font-size: 1.75rem;
+    line-height: 1.4;
+}
+
+.jumbotron {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+}
+
+.bg-light {
+    background-color: #363636 !important;
+}
+
+a.navbar-brand,
+a.nav-link {
+    color: white !important;
+    text-align: center;
+}
+
+h3,
+figcaption,
+.display-4 {
+    text-align: center;
+}
+
+.display-4 {
+    font-family: Courgette;
+    color: white;
+}
+
+p.card-text {
+    text-align: center;
+}
+
+
+.spain-article {
+    margin-bottom: 30px;
+}
+
+.col-sm {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #363636;
+    padding: 20px;
+    text-align: right;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 35rem) {
+    body {
+        font-size: 1rem;
+    }
+
+    h3,
+    figcaption {
+        text-align: left;
+    }
+
+    figure img,
+    figcaption {
+        width: 40%;
+        margin-right: 20px;
+        float: left;
+        clear: both;
+    }
+
+
+    figcaption {
+        margin-bottom: 5px;
+    }
+
+    .container.flamingos {
+        clear: both;
+    }
+
+    .container.spain {
+        clear: both;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .col-sm {
+        width: 50%;
+        float: right;
+    }
+
+}
+
+@media only screen and (min-width: 80rem) {
+    body {
+        font-size: 1.25rem;
+    }
+
+    figure img,
+    figcaption {
+        width: 30%;
+        display: flex;
+
+    }
+
+    article {
+        display: flex;
+    }
+
+    .col-sm {
+        width: 33.33%;
+        float: right;
+    }
+
+}
